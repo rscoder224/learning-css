@@ -1,0 +1,34 @@
+/* units in Css
+absolute units and relative units 
+absolute units --> pixels, inches, points
+relative units --> em, root em(rem), percentage*/
+
+/* absolute lenghts units are fixed and a lenght expressed in any of these will appear as exactly that size */
+/* relative lenght unit specify a lenghth relative to another lenght property. relative lenght scale units better 
+between different rendering medium */
+
+body{
+    background-color: aliceblue;
+}
+
+/* pixels */
+/* for percentages 100% = 16px so 1px = 6.25% */
+/* em is the relative unit that is  calculated on the basis of font size of Parent element. 1em = 16px  */
+/* Root em Rem is the relative unit that is calculated based on the font root html element.  */
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 5.54em;
+    color: rgb(87, 10, 160);
+}
+
+p{
+    font-size: 2.25rem;
+}
+
+li{
+    font-size: 3rem;
+}
+
+/* rem unit of CSS  */

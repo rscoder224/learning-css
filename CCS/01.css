@@ -1,0 +1,41 @@
+/* combination of prperty and value is called declaration.*/
+
+/* class selector can be selected by using .className
+id selector can be selected by using #IDname */
+
+
+
+p{
+    color: aquamarine;
+}
+#btn{
+    background-color: red;
+    color: white;
+}
+
+/* how to hover a button */
+#btn:hover{
+    color: blueviolet;
+}
+/* using rgb color */
+p{
+    color: rgb(143, 46, 46);
+}
+/* using hex code color for changing color */
+p{
+    color: #287550
+}
+/* using rgba where a stands for alpha */
+p{
+    color: rgba(255,0,0, 76);
+}
+
+/* Hue: A pure color
+Tint: A pure color with just white added
+Shade: A pure color with just black added
+Tone: A pure color with just grey addded */
+
+p{
+    color: hsl(122, 51%, 13%);
+}
+

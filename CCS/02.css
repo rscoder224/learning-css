@@ -1,0 +1,19 @@
+/* background properties CSS 
+background-color 
+background-Image 
+background-repeat 
+background-position
+background-size
+background-attachment*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    background-image: 
+    url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?t=st=1724648846~exp=1724652446~hmac=429486159ba7e172846e455e61db6e305fade18a3dba26430ef48d146626c77e&w=1060);
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+background-attachment: scroll;
+} 
+ 
